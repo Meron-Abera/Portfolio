@@ -7,10 +7,6 @@ module.exports = {
       url: 'https://github.com/Meron-Abera',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/nathseasn/',
-    },
-    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/meron-shibru-589b82224',
     },

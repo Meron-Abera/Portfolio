@@ -2,7 +2,7 @@ import { css } from 'styled-components';
 
 const variables = css`
   :root {
-    --dark-navy: #d8bbff;
+    --dark-navy: #000;
     --navy: #1e1d20;
     --light-navy: #65606c;
     --lightest-navy: #323036;
@@ -14,7 +14,7 @@ const variables = css`
     --white: #e6f1ff;
     --green: #ff99ac;
     --green-tint: rgba(100, 255, 218, 0.1);
-    --pink: #9d4edd;
+    --pink: #ff99ac;
     --blue: #57cbff;
 
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,

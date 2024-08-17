@@ -106,16 +106,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-      My goal is to provide software solutions that increase system efficiency and improve user experiences. Currently, I work at{' '}
-        <a href="https://www.huawei.com/en/" target="_blank" rel="noreferrer">
-          Huawei Technologies Ethiopia P.L.C
-        </a>{' '}
-        as an Intern and I am also a developer at{' '}
-        <strong>TamaCares</strong> building{' '}
-        <a href="https://www.tamacares.com" target="_blank" rel="noreferrer">
-          tamacares.com
-        </a>
-        .
+      My goal is to provide software solutions that increase system efficiency and improve user experiences.
       </p>
       <a className="email-link" target="_top" href="mailto:meronabera2121@gmail.com">
         Say Hi

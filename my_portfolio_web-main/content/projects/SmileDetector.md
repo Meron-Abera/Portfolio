@@ -1,8 +1,6 @@
 ---
 date: '2022-05-27'
 title: 'Water-based air purifier'
-github: ''
-external: ''
 tech:
   - C
 company: ''

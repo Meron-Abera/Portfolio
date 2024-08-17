@@ -34,7 +34,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'fullscreen',
-        icon: 'rc/images/1.png',
+        icon: '/src/images/logo1.png',
       },
     },
 
