@@ -19,7 +19,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "prepare": "husky install",
+    "prepare": "if [ -z \"$CI\" ]; then husky install; fi",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
