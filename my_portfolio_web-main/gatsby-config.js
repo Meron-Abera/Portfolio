@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'Meron Shibiru',
     description:
-      'Meron Shibiru is a software engineer who builds software to change ideas to reality with exceptional digital experiences.',
+      'Meron Abera Shibiru is a software engineer who builds software to change ideas to reality with exceptional digital experiences.',
     siteUrl: 'https://www.meron.net', // No trailing slash allowed!
     image: '/og.png',
     linkedinUsername: 'https://www.linkedin.com/in/nathanseasn/',
@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Meron Shibiru',
+        name: 'Meron Abera Shibiru',
         short_name: 'Meron',
         start_url: '/',
         background_color: config.colors.darkNavy,
