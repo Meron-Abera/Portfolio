@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import styled, { keyframes, css } from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -83,9 +83,7 @@ const StyledHeroSection = styled.section`
   p {
     margin: 20px 0 0;
     max-width: 540px;
-    ${({ theme }) => css`
-      animation: ${fadeInUp} 1.2s ease-out;
-    `}
+    animation: ${fadeInUp} 1.2s ease-out;
   }
 
   .email-link {
@@ -133,9 +131,7 @@ const StyledHeroSection = styled.section`
 `;
 
 const AnimatedHeading = styled.h3`
-  ${({ theme }) => css`
-    animation: ${fadeInUp} 1.2s ease-out;
-  `}
+  animation: ${fadeInUp} 1.2s ease-out;
 `;
 
 const Hero = () => {
