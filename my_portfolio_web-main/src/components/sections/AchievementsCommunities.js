@@ -23,7 +23,7 @@ const StyledAchievementsGrid = styled.section`
 `;
 
 const Card = styled.div`
-  background-color:rgb(170, 129, 191); /* soft purple shade */
+  background-color: rgb(170, 129, 191); /* soft purple shade */
   border-radius: var(--border-radius);
   padding: 20px;
   text-align: left;
@@ -57,12 +57,14 @@ const achievements = [
   {
     title: 'Team Lead – Face Recognition Attendance System (Senior Project)',
     date: '2024',
-    description: 'Developed a real-time face recognition attendance system as part of the senior capstone project using local dataset collection, model training, and system integration.',
+    description:
+      'Developed a real-time face recognition attendance system as part of the senior capstone project using local dataset collection, model training, and system integration.',
   },
   {
     title: 'Best Presentation – Capstone Design Expo',
     date: '2024',
-    description: 'Recognized for delivering an effective technical presentation that included original research, model development, and hands-on data collection for the final-year capstone project.',
+    description:
+      'Recognized for delivering an effective technical presentation that included original research, model development, and hands-on data collection for the final-year capstone project.',
   },
   // {
   //   title: 'Volunteer Coding Instructor – Girls Who Code Ethiopia',
@@ -72,22 +74,26 @@ const achievements = [
   {
     title: 'Teaching Assistant – AASTU',
     date: '2023',
-    description: 'Assisted students in understanding Data Structures and Algorithms and provided lab support across core courses.',
+    description:
+      'Assisted students in understanding Data Structures and Algorithms and provided lab support across core courses.',
   },
   {
     title: 'Mentor – Google Developer Clubs (AASTU)',
     date: '2023',
-    description: 'Provided mentorship in web development and algorithmic thinking through project-based learning and coding bootcamps.',
+    description:
+      'Provided mentorship in web development and algorithmic thinking through project-based learning and coding bootcamps.',
   },
   {
-    title: 'Academic Recognition – Ethiopian Ministries of Education & Addis Ababa City Government of Women, Children, and Social Affairs',
+    title:
+      'Academic Recognition – Ethiopian Ministries of Education & Addis Ababa City Government of Women, Children, and Social Affairs',
     date: '2024',
     description: 'Recognized for high academic performance.',
   },
   {
     title: 'Member – RTC (Rewriting the Code) & Baddies in Tech',
     date: 'Ongoing',
-    description: 'Actively engaged in women-focused tech initiatives, participated in community-led hackathons, mentorship programs, and educational forums to support career growth and academic excellence.',
+    description:
+      'Actively engaged in women-focused tech initiatives, participated in community-led hackathons, mentorship programs, and educational forums to support career growth and academic excellence.',
   },
 ];
 

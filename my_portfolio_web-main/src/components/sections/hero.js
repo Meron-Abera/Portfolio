@@ -116,7 +116,11 @@ const StyledHeroSection = styled.section`
   }
 
   @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
       transform: translateY(0);
     }
     40% {
@@ -140,7 +144,7 @@ const Hero = () => {
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    if (prefersReducedMotion) return;
+    if (prefersReducedMotion) {return;}
     const timeout = setTimeout(() => setIsMounted(true), navDelay);
     return () => clearTimeout(timeout);
   }, []);
@@ -157,7 +161,7 @@ const Hero = () => {
   const two = <h2 className="big-heading">Meron Abera Shibiru.</h2>;
   const three = (
     <AnimatedHeading className="big-heading">
-I design and develop web and mobile applications.
+      I design and develop web and mobile applications.
     </AnimatedHeading>
   );
   const four = (

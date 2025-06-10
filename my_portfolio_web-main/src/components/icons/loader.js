@@ -26,7 +26,7 @@ const IconLoader = () => (
     <line stroke="#ea698b" className="line" x1="45" y1="90" x2="90" y2="45" />
 
     {/* Left vertical line */}
-    <line  stroke="#ea698b" className="line" x1="10" y1="10" x2="10" y2="90"  />
+    <line stroke="#ea698b" className="line" x1="10" y1="10" x2="10" y2="90" />
 
     {/* Right vertical line */}
     <line stroke="#ea698b" className="line" x1="90" y1="10" x2="90" y2="90" />

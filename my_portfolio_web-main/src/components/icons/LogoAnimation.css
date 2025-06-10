@@ -1,9 +1,9 @@
 .icon-loader {
   width: 150px; /* Adjust the size as needed */
   height: 150px; /* Adjust the size as needed */
-  stroke-linecap:round; /* Makes the lines' ends rounded */
+  stroke-linecap: round; /* Makes the lines' ends rounded */
   stroke-linejoin: round; /* Makes the lines' joins rounded */
-  animation: draw 2s ease-in-out ; /* Smooth transition animation */
+  animation: draw 2s ease-in-out; /* Smooth transition animation */
 }
 
 .line {
@@ -29,4 +29,3 @@
     stroke-dashoffset: 0;
   }
 }
-

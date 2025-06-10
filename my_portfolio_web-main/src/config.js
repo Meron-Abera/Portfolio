@@ -10,7 +10,6 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/meron-shibru-589b82224',
     },
-
   ],
 
   navLinks: [
