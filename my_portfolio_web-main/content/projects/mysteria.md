@@ -9,6 +9,4 @@ tech:
 showInProjects: true
 ---
 
- A restaurant website for table and event reservations, food ordering, and delivery. The platform features booking, a user-friendly menu, and efficient order management, enhancing both the dining experience and operational efficiency.
-
-
+A restaurant website for table and event reservations, food ordering, and delivery. The platform features booking, a user-friendly menu, and efficient order management, enhancing both the dining experience and operational efficiency.

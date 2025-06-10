@@ -12,6 +12,3 @@ tech:
 ---
 
 Developed a face recognition attendance system using CNN for advanced image processing, Django for robust backend management, and React.js for a dynamic and responsive user interface. This system significantly improved the efficiency and accuracy of attendance tracking by automating the process and reducing manual errors.
-
-
-

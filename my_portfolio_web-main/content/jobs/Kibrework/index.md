@@ -10,4 +10,3 @@ url: 'https://kibrework.org/'
 - Developed a responsive and user friendly website tailored to an organizational mission.
 - Built essential pages using modular and scalable components.
 - Integrated donation functionality and newsletter subscription to support user engagement.
-
