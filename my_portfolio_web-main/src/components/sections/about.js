@@ -126,18 +126,13 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Python',
-    'Django',
-    'JavaScript (ES6+)',
-    'React Js',
-    'Next Js',
-    'Node Js',
-    'Laravel PHP',
-    'SQL/PostgreSQL/MongoDB',
-    'Flutter',
-    'Git',
-    'Github',
-  ];
+  'Python', 'Django',
+  'JavaScript (ES6+)', 'React.js', 'Next.js', 'Node.js',
+  'Laravel', 'PHP',
+  'SQL', 'PostgreSQL', 'MongoDB',
+  'Flutter', 'Git', 'GitHub',
+];
+
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -145,20 +140,37 @@ const About = () => {
 
       <div className="inner">
         <StyledText>
-          <div>
-            <p>
-              Hello there! I'm Meron Shibiru, a dedicated software developer with a strong desire to
-              develop solutions that have an impact. I've worked on a variety of projects since I
-              started my software development career, including web applications and mobile app
-              development.
-            </p>
+       <div>
+  <p>
+    Hi there! I’m <span style={{ color: '#e1c0f2', fontWeight: 600 }}>Meron Shibiru</span>, a Software Engineering graduate
+    with a passion for building meaningful and inclusive technology. I started programming during high school and quickly
+    became interested in how software can improve lives — from healthcare to education to public service.
+  </p>
 
-            <p>
-              I majored in software engineering and recently graduated from Addis Ababa Science and Technology University.
-              I also work as a Software Engineer intern at Huawei, the leading technology company.
-            </p>
-            <p>The technologies I’ve used and learned in recent projects</p>
-          </div>
+  <p>
+    I recently completed my <strong>B.Sc. in Software Engineering</strong> at
+    <span style={{ color: '#e1c0f2', fontWeight: 600 }}> Addis Ababa Science and Technology University</span>, where I focused
+    on topics like artificial intelligence, distributed systems, and system design. During my time there, I served as a
+    <span style={{ color: '#e1c0f2', fontWeight: 600 }}> Teaching Assistant</span> and mentored students through the
+    <span style={{ color: '#e1c0f2', fontWeight: 600 }}> Google Developer Clubs (GDC)</span>.
+  </p>
+
+  <p>
+    My academic achievement was recognized by the
+    <span style={{ color: '#e1c0f2', fontWeight: 600 }}> Ministry of Education</span> and the
+    <span style={{ color: '#e1c0f2', fontWeight: 600 }}> Ministry of Women, Children, and Social Affairs</span>.
+    {/* I’ve built projects like a <strong>facial recognition attendance system</strong>,
+    the <span style={{ color: '#e1c0f2', fontWeight: 600 }}>Venuine</span> platform, and contributed to mission-driven work
+    at <span style={{ color: '#e1c0f2', fontWeight: 600 }}>Develop for Good</span>. */}
+  </p>
+
+  <p>
+    I'm always eager to learn, collaborate, and build technology that empowers others.
+  </p>
+</div>
+
+
+
 
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}

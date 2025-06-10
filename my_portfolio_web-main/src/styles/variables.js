@@ -1,5 +1,5 @@
 import { css } from 'styled-components';
-
+// b8c0ff, better e5b3fe, C880B7
 const variables = css`
   :root {
     --dark-navy: #000;
@@ -10,9 +10,9 @@ const variables = css`
     --dark-slate: #d0d1ff;
     --slate: #8892b0;
     --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    --lightest-slate: #f1e6f7;
     --white: #e6f1ff;
-    --green: #ff99ac;
+    --green: #e5b3fe;
     --green-tint: rgba(100, 255, 218, 0.1);
     --pink: #ff99ac;
     --blue: #57cbff;
